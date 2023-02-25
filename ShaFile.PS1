@@ -1,4 +1,4 @@
-$filePath = "C:\Users\guihf\Downloads\Alura_Project\Visual_Studio_Code\ShaFile.PS1"
+$filePath = "C:\ShaFile.PS1"
 $fileHash = Get-FileSHA1 $filePath
 
 function Get-FileSHA1($filePath) {
